@@ -153,6 +153,48 @@ trait InvoiceHelpers
         return $this;
     }
 
+    public function payment(string $payment)
+    {
+        $this->payment = $payment;
+
+        return $this;
+    }
+
+    public function bank(string $bank)
+    {
+        $this->bank = $bank;
+
+        return $this;
+    }
+
+    public function swift(string $swift)
+    {
+        $this->swift = $swift;
+
+        return $this;
+    }
+
+    public function currency(string $currency)
+    {
+        $this->currency = $currency;
+
+        return $this;
+    }
+
+    public function course(string $course)
+    {
+        $this->course = $course;
+
+        return $this;
+    }
+
+    public function course_date(string $course_date)
+    {
+        $this->course_date = $course_date;
+
+        return $this;
+    }
+
     /**
      * @param mixed
      * @return $this
